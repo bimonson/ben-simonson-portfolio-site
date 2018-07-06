@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ben Simonson Portfolio Site</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script>
+      // Picture element HTML5 shiv
+      document.createElement( "picture" );
+    </script>
+<script src="picturefill.min.js" async></script>
+  </head>
+  <body>
+    <header class="header">
+      <svg class="header__logo" version="1.1" xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	      width="72px" height="72px" viewBox="0 0 72 72" enable-background="new 0 0 72 72" xml:space="preserve">
+          <g>
+          	<path fill="#02B3E4" d="M36.006,1.401c-10.138,0-19.918,4.574-26.451,12.318c-6.608,7.833-9.424,18.402-7.589,28.486
+          		C3.758,52.052,9.929,60.8,18.557,65.858c8.87,5.2,19.875,6.156,29.51,2.563c9.335-3.482,16.887-11.033,20.369-20.367
+          		c3.596-9.634,2.641-20.636-2.562-29.505C59.711,8.042,48.196,1.401,36.006,1.401 M36.006,72C25.85,72,16.02,67.595,9.231,60.048
+          		C2.384,52.435-0.928,42.087,0.226,31.913c1.133-9.998,6.572-19.214,14.719-25.107C23.275,0.779,34.014-1.4,44.04,0.893
+          		c9.751,2.23,18.291,8.611,23.252,17.288c5.112,8.941,6.122,19.915,2.73,29.641C65.034,62.122,51.154,72,36.006,72"/>
+          	<path fill="#02B3E4" d="M61.736,47.1c3.754-8.533,2.794-18.723-2.309-26.487c-1.603,2.141-3.204,4.281-4.807,6.421
+          		c-0.34,0.454,0.944,1.107,1.301,1.449c0.969,0.928,1.815,1.98,2.514,3.125c1.309,2.143,2.083,4.6,2.25,7.104
+          		c0.721,10.799-10.099,19.259-20.397,15.876c-1.623-0.484-3.181-1.34-4.533-2.349c1.806-2.413,3.612-4.825,5.418-7.238
+          		c0.398-0.532,0.241-1.265,0.21-1.907c-0.076-1.576-0.415-3.138-1.003-4.603c-1.146-2.855-3.231-5.313-5.858-6.917
+          		c1.534-1.552,2.567-3.629,2.876-5.814c0.084-0.595,0.115-1.196,0.095-1.797c0.437-0.691,0.916-1.351,1.453-1.969
+          		c0.902-1.038,1.941-1.956,3.084-2.721c4.633-3.099,10.725-3.469,15.705-0.97c-4.959-6.065-12.357-9.862-20.189-10.286
+          		c-8.045-0.436-16.066,2.684-21.664,8.483h5.947c1.983,0,4.055-0.176,6.031,0.037c3.931,0.378,7.042,3.805,7.042,7.76
+          		c0,4.24-3.562,7.799-7.798,7.799c3.166,0,6.153,1.313,8.384,3.543c1.389,1.429,2.405,3.208,2.917,5.134
+          		c0.194,0.727,0.314,1.465,0.367,2.212c0.063,0.869-0.15,1.056-0.645,1.734c-1.967,2.707-4.006,5.364-6.011,8.044
+          		c0.41,0.306,0.819,0.612,1.228,0.918c-2.735,2.052-6.339,1.807-9.556,1.807H15.88c3.437,3.309,7.311,5.889,11.912,7.3
+          		c4.794,1.47,9.977,1.617,14.85,0.434C51.118,61.164,58.269,55.09,61.736,47.1"/>
+          	<path fill="#02B3E4" d="M11.505,49.6c-4.658-8.368-4.659-18.84,0-27.207V49.6z"/>
+          </g>
+      </svg>
+      <div class="header__text">
+        <h1 class="header__title">Ben Simonson</h1>
+        <h3 class="header__subtitle">Front-End Padawan</h3>
+      </div>
+    </header>
+    <main>
+      <section class="content">
+        <section class="hero">
+          <picture>
+            <source
+              media="(min-width: 900px)"
+              srcset="img/jacksonville_large_1x.jpg 1x, img/jacksonville_large_2x.jpg 2x">
+            <source
+              media="(min-width: 500px)"
+              srcset="img/jacksonville_medium_1x.jpg 1x, img/jacksonville_medium_2x.jpg 2x">
+            <img src="img/jacksonville_crop_small_1x.jpg"
+              srcset="img/jacksonville_crop_small_1x.jpg 1x, img/jacksonville_crop_small_2x.jpg 2x"
+              alt="Jacksonville Florida cityscape from the water with alligator and oranges in the foreground">
+          </picture>
+        </section>
+        <section class="featured">
+          <h2 class="featured__title">Featured Work</h2>
+          <ul>
+            <li class="work__01">
+              <div class="work__thumbnail">
+                <img src="img/lansing_1x.jpg"
+                srcset="img/lansing_1x.jpg, img/lansing_2x.jpg 2x" alt="Retro Lansing, Michigan sign illustration">
+              </div>
+              <h2 class="work__title">Lansing, MI</h2>
+              <p class="work__description">Editorial illustration for Lansing, Michigan.</p>
+              <a class="work__link" href="https://www.behance.net/gallery/4231185/Ghettoblaster-City-Profile-Lansing-MI">More Info</a>
+            </li>
+            <li class="work__02">
+              <div class="work__thumbnail">
+                <img src="img/austin_1x.jpg"
+                srcset="img/austin_1x.jpg, img/austin_2x.jpg 2x" alt="Folded map with state of Texas popping off and shining star indicating the location of Austin.">
+              </div>
+              <h2 class="work__title">Austin, TX</h2>
+              <p class="work__description">Editorial illustration for Austin, Texas.</p>
+              <a class="work__link" href="https://www.behance.net/gallery/2172353/Ghettoblaster-City-Profile-Illustration-Austin-Texas">More Info</a>
+            </li>
+            <li class="work__03">
+              <div class="work__thumbnail">
+                <img src="img/denver_1x.jpg"
+                srcset="img/denver_1x.jpg, img/denver_2x.jpg 2x" alt="Map of USA with Denver, CO projecting outward.">
+              </div>
+              <h2 class="work__title">Denver, CO</h2>
+              <p class="work__description">Editorial illustration for Denver, Colorado.</p>
+              <a class="work__link" href="https://www.behance.net/gallery/1856507/Ghettoblaster-City-Profile-Illustration">More Info</a>
+            </li>
+          </ul>
+        </section>
+      </section>
+    </main>
+
+  </body>
